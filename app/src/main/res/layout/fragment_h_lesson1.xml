@@ -1,0 +1,116 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.julitech.brykiva.courses.html.hLesson1Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HTML Syntax"
+            style="@style/TitleText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/html_is_use_for_writing_webpages" />
+
+        <br.tiagohm.codeview.CodeView
+            app:cv_font_size="14"
+            app:cv_show_line_number="false"
+            app:cv_wrap_line="false"
+            android:id="@+id/code1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/html_basics_1"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attributes:"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/html_basics_2" />
+
+        <br.tiagohm.codeview.CodeView
+            app:cv_font_size="14"
+            app:cv_show_line_number="false"
+            app:cv_wrap_line="false"
+            android:id="@+id/code2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/html_basics_3"/>
+        <br.tiagohm.codeview.CodeView
+            app:cv_font_size="14"
+            app:cv_show_line_number="false"
+            app:cv_wrap_line="false"
+            android:id="@+id/code3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comments:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/html_basics_comments" />
+        <br.tiagohm.codeview.CodeView
+            app:cv_font_size="14"
+            app:cv_show_line_number="false"
+            app:cv_wrap_line="false"
+            android:id="@+id/code4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Self-enclosing elements:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/html_basics_4" />
+        <br.tiagohm.codeview.CodeView
+            app:cv_font_size="14"
+            app:cv_show_line_number="false"
+            app:cv_wrap_line="false"
+            android:id="@+id/code5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</ScrollView>

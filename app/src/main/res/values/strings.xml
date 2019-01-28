@@ -1,0 +1,584 @@
+<resources>
+    <string name="app_name">KivaLearn</string>
+    <string name="title_activity_login">" Log in"</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="test_code">
+        &lt;!DOCTYPE html&gt;\n
+            &lt;html&gt; \n
+                &lt;head&gt;\n
+                &lt;/head&gt;\n
+                &lt;body&gt;\n
+                    &lt;p&gt;This is it&lt;/p&gt;\n
+                &lt;/body&gt;\n
+            &lt;/html&gt;
+    </string>
+
+    <!--Strings for html basics-->
+    <string name="html_is_use_for_writing_webpages">
+        HTML is use for writing webpages.
+        \nHTML stands for <b>Hyper Text Markup Language</b>
+        \nHTML rules are simple:\n \n
+        <b>Example:</b>\n
+    </string>
+    <string name="html_basics_1"><b>&lt;</b> and <b>&gt;</b> are HTML <b>tags.</b>
+        \n<b>p</b> stands for paragraph.
+        \nThey usually go in pairs.
+        \nThe opening tag <b>&lt;p&gt;</b> defines the start of the paragraph.
+        \nThe closing tag <b>&lt;/p&gt;</b> defines its end.
+        \nThe only difference between an&lt;&gt; opening and closing tag is the slash /\n
+    </string>
+
+    <string name="html_basics_2">Attributes are extra nor browser displaying information tied to an HTML element.
+        \nThey are written within an HTML tag.
+        \nFor example, the <b>href</b> attribute is used to define the target of a link (which uses an anchor tag).\n
+    </string>
+    <string name="html_basics_3">
+        \n<b>Obligatory attributes:</b>
+        \nFor example, when inserting an image, you have to provide the location of the image, using the <b>src</b> (source) attribute: Considering that the purpose of the <b>&lt;img&gt;</b> element is to display an image, it makes sense for the path to the image to be required.\n</string>
+
+    <string name="html_basics_comments">Comments do not display on browser.
+        They will be ignored by the browser, and are only useful for us humans who write the code.
+        \nA comment starts with <b>&lt;!--</b> and ends with <b>--&gt;</b>\n
+    </string>
+    <string name="html_basics_4">Some HTML elements only have an opening tag Because they don’t have a closing tag and consequently can’t contain anything inside them, self-enclosing elements usually carry a few attributes, to provide them with additional information.\n</string>
+
+    <string name="block_and_inline_1">HTML has 2 main types of elements.
+        \nIn HTML, you\'ll mainly come across 2 types of HTML elements namely <b>Block elements</b> and <b>Inline elements</b>.\n
+        \n<b>Block elements like:</b>
+        \n-Paragraphs <b>&lt;p&gt;</b>
+        \n-Lists: <b>&lt;ul&gt;</b> Unordered (with bullet points) or <b>&lt;ol&gt;</b> ordered lists (with numbers)
+        \n-Headings: from 1st level <b>&lt;h1&gt;</b> to 6th level headings <b>&lt;h6&gt;</b>
+        \n-Articles <b>&lt;article&gt;</b>
+        \n-Sections <b>&lt;section&gt;</b>
+        \n-Long quotes <b>&lt;blockquote&gt;</b>\n
+        \n<b>Inline elements like:</b>
+        \n-Links <b>&lt;a&gt;</b>
+        \n-Emphasised words <b>&lt;em&gt;</b>
+        \n-Important words <b>&lt;strong&gt;</b>
+        \n-Short quotes <b>&lt;q&gt;</b>
+        \n-Abbreviations <b>&lt;abbr&gt;</b>\n
+        \n<b>Block elements</b> are meant to structure the main parts of your page, by dividing your content in coherent blocks.\n
+        \n<b>Inline elements</b> are meant to differentiate part of a text, to give it a particular function or meaning.
+        \nInline elements usually comprise a single or few words.
+        \n<b>Example:</b>\n
+    </string>
+    <string name="block_and_inline_2"><b>Opening and closing tags:</b>
+        \nAll block-level elements have an opening and closing tags.
+        \nAs a result, self-enclosing elements are inline elements, simply because their syntax don\'t allow them to contain any other HTML element.
+        <!--\n<b>Block elements</b> -->
+        <!--\n&lt;p&gt; &lt;/p&gt; -->
+        <!--\n&lt;ul&gt; &lt;/ul&gt; -->
+        <!--\n&lt;ol&gt; &lt;/ol&gt;-->
+        <!--\n\n<b>Inline elements</b> &lt;a&gt; &lt;/a&gt; -->
+        <!--\n&lt;strong&gt; &lt;/strong&gt; -->
+        <!--\n&lt;em&gt; &lt;/em&gt; -->
+        <!--\n&lt;input&gt; &lt;br&gt; -->
+        <!--\n&lt;img&gt;-->
+        \n\n<b>Other types of HTML elements:</b>
+        \nThere are several exceptions to the block and inline elements, but the ones you will most often encounter are: list items for the <b>&lt;li&gt;</b> table, table rows, table cells for <b>&lt;table&gt;, &lt;tr&gt;</b>  and <b>&lt;td&gt;</b> respectively
+    </string>
+
+    <string name="hierarchy_1">It\'s a big family tree
+        \n\n<b>Nesting:</b>
+        \nLet’s write a simple paragraph and enhance it by differentiating parts of the text, by inserting two inline elements:
+        \n\n<b>Code:</b>
+    </string>
+    <string name="hierarchy_2">
+        \n<b>Run:</b>
+        \n<b>Kivalearn</b>  is a platform known for:  <i>learning and creating</i>.
+\n\nIn this setup:
+\n<b>&lt;strong&gt;</b> is displayed in bold
+\n<b>&lt;q&gt;</b> marks the quote “learning and creating”
+\n\n<b>Order:</b> How nesting works depends on the location of opening and closing tags.
+\n<b>Remember:</b> A child element must be closed before closing the parent element. The sequence of arranging tag is paramount.
+\n<b>Example:</b>\n </string>
+
+    <string name="hierachy_3">\n<b>Depth:</b>
+        \nBecause child elements can themselves contain other child elements,
+        it’s possible to write a deeper hierarchy within an HTML document.</string>
+
+
+    <!--Html Semantics lesson4-->
+    <string name="html_semantics_1">HTML is about meaning.
+        \nDon’t be concerned about how your webpage looks like.
+        \nFocus on the significance of each tag you use.
+        \n\n<b>Structure elements</b>: Organizing your page
+        \nStructure elements allow you to organize the main parts of your page. They usually contain other HTML elements.
+        \nTypical webpage could include:
+        \n<b>&lt;header&gt;</b> The first element of the page, it includes the logo and the tagline.
+        \n<b>&lt;nav&gt;</b> as a list of links that go to the different pages of the website.
+        \n<b>&lt;h1&gt;</b> as the title of the page.
+        \n<b>&lt;body&gt;</b> as the main content of the page, like a blog post.
+        \n<b>&lt;footer&gt;</b> as the last element of the page, located at the bottom.\n
+        \n<b>Text elements:</b> Defining your content
+        \nInside these structure elements, you usually find text elements meant to define the purpose of your content.
+        \nYou’ll mainly use:
+        \n<b>&lt;p&gt;</b>  paragraphs
+        \n<b>&lt;ul&gt;</b>  (unordered) lists
+        \n<b>&lt;ol&gt;</b> (ordered) lists
+        \n<b>&lt;li&gt;</b>  individual list items
+        \n<b>&lt;blockquote&gt;</b> for quotes
+        \n\n<b>Inline elements:</b> Distinguishing your text
+        \n<b>&lt;strong&gt;</b> for important words
+        \n<b>&lt;em&gt;</b> for emphasized words
+        \n<b>&lt;a&gt;</b> for links
+        \n<b>&lt;small&gt;</b> for less important words
+        \n<b>&lt;abbr&gt;</b> for abbreviations like W3C
+
+    </string>
+
+    <!--Html text lesson 6-->
+    <string name="html_text_1">
+HTML content is 90% text\n
+Html is more of text, you can observe most websites, you note that more of was you do in a website is reading.
+\n\n<b>Paragraphs:</b>\n
+Paragraphs <b>&lt;p&gt;</b> Tag are the most used HTML element, as they act as the default block-level element and are quick to write.\n\n
+</string>
+    <string name="html_text_2">
+        \n\n<b>Lists:</b>
+        \nLists come in 3 variations:
+        \n<b>&lt;ul&gt;</b> are unordered lists
+        \n<b>&lt;ol&gt;</b> are ordered lists (whose items are automatically numbered)
+        \n<b>&lt;dl&gt;</b> are definition lists
+        \n\nHTML lists require a specific structure:
+        \n<b>&lt;li&gt;</b> stands for list items,it cannot stand alone it has to be inside either &lt;ul&gt; (unordered list tag)  &lt;ol&gt; (order list tag)
+    </string>
+    <string name="html_text_3">\n<b>Unordered lists:</b>
+        \nThey are the most commonly used types of lists.
+        \nThey are meant to group together a list of individual items, in no particular order.
+    </string>
+    <string name="html_text_4">
+        \n\n<b>Ordered lists:</b>
+        \nOrdered lists are used when the order of its items is relevant.
+        \nThis is automatically read and arranged by the browser
+    </string>
+    <string name="html_text_5">
+        \n\n<b>Definition lists:</b>
+        \nDefinition lists are for items that come in pairs.
+        \nThey must include pairs of &lt;dt&gt; definition terms and &lt;dd&gt; definition descriptions as direct children.
+    </string>
+    <string name="html_text_6">\n\n<b>Run:</b>
+        \nWeb
+        \nThe part of the Internet that contains websites and webpages
+        \nHTML
+        \nA markup language for creating webpages
+        \nCSS
+        \nA technology to make HTML look better
+        \nDefinition lists are rarely used because their use cases are very specific, and only happen when the key changes every time. Tables with 2 columns are the more popular alternative.
+    </string>
+    <string name="html_text_7">
+        \n\n<b>Blockquotes:</b>
+        \nBlockquotes are used to identify a citation.
+        \n<b>Example:</b>
+    </string>
+    <string name="html_text_8">
+        \n\n<b>Headings:</b>
+        \nThere are 6 levels of headings available, ranging from <b>&lt;h1&gt;</b> to <b>&lt;h6&gt;</b>\n
+</string>
+    <string name="inline_semantics_1">The small parts within a block of text.
+\nWhile paragraphs and lists are meant to identify whole blocks of text,
+        we sometimes want to provide meaning to a word (or a few words) within a text.
+
+\n\n<b>Strong:</b>
+\n<b>&lt;strong&gt;</b> tag:\n
+</string>
+    <string name="inline_semantics_2">\n<b>Run:</b>
+        \nThis is <b>important</b> take note
+        &lt;/p&gt;
+        This is important but take note
+
+        \n\n<b>Emphasis:</b>
+\n<b>&lt;em&gt;</b> tag:
+</string>
+    <string name="inline_semantics_3">
+
+        \n<b>Abbreviations:</b>
+\nAbbreviations like USA or CD can use the <b>&lt;abbr&gt;</b> element:
+
+You can add a title attribute to specify the abbreviation\'s description, which will appear by hovering the element:
+        \n<b>Example:</b>
+        </string>
+    <string name="inline_semantics_4">
+        \n<b>Inline quotes:</b>
+        \nThe <b>&lt;blockquote&gt;</b> element is a block-level element.
+                \nIt has an inline version: <b>&lt;q&gt;</b>
+        </string>
+    <string name="html_formatting_1">When whitespace doesn\'t matter.
+        \nHTML tags like <b>&lt;p&gt;</b> are  read by the browser but not displayed
+        \nComments are read in your codes but not visible with in the browser.
+                \nAnother kind of written code ignored by the browser is whitespace, which includes:
+
+        \nline-breaks
+        \nempty lines
+        \ntabulations (or indentation)
+        \n\n<b>Line-breaks</b>
+        \nLine-breaks and empty lines (which are a succession of line-breaks) in HTML code are ignored by the browser.
+                \nThey only account for a single space.\n
+
+    </string>
+    <string name="html_formatting_2">\n<b>Tabulations:</b>
+\nA tabulation is a special character obtained by pressing the “Tab” key.
+        \nIt usually moves the cursor to the next tab stop, but sometimes is converted to 2 spaces.
+        \nA tabulation is invisible. It’s also ignored by the browser:\n
+
+    </string>
+    <string name="html_formatting_3">\n<b>Run:</b>
+        \n   Let\'s push this     text with tabulations.
+        \n\nIf you want to add space before a word, you’ll have to use CSS, which we’ll cover in the next chapter.
+        \nIf you want to close an HTML element, you first have to close all its children elements.
+    </string>
+
+    <string name="html_image_1">Most image formats you can find on your computer can also be displayed in your browser: .jpg, .gif (animated or not), .png (transparent or not), .bmp…
+        \n\n<b>Image tag:</b>\n</string>
+    <string name="html_image_2">Images use the <b>&lt;img&gt;</b> element, which is a self-closing element (it only has an opening tag).
+        \n\nThe <b>src</b> attribute defines the location of the image. As with links, you can either use relative or absolute URLs.</string>
+    <string name="html_table_1">For multi-dimensional data
+\nHTML tables are meant for tabular data only, which is any type of content that can be semantically arranged in rows and columns.
+
+\nIt’s like having a spreadsheet in Excel.
+
+\n\n<b>Syntax:</b>
+\nBuilding a table in HTML requires a specific structure:
+
+\nOpen a <b>&lt;table&gt;</b>
+\nAdd rows with <b>&lt;tr&gt;</b>
+\nAdd regular cells with <b>&lt;td&gt;</b> or heading cells with <b>&lt;th&gt;</b>
+\nThis hierarchy is required, and all 3 elements are necessary to build a table.
+
+\nWhen writing the code, you need to define your table cells from left to right, and then from to bottom.\n
+    </string>
+    <string name="html_structure_1">To organize the main parts of your webpage.
+\nWhen writing HTML content like paragraphs, lists or links, you provide meaning to your text. But you might want to group some of these elements together.
+
+
+
+\n<b>Header:</b>
+\nThe header is usually the first HTML element in the code.
+        \nIt acts as an introduction to the webpage, with the logo, a tagline, and navigation links.\n
+    </string>
+    <string name="html_structure_2"><b>\nFooter:</b>
+\nAs opposed to the header, the footer is usually the last element of a page, where the main navigation links are repeated and secondary ones added.
+    \n</string>
+    <string name="html_structure_3"><b>\nMain:</b>
+\nThe main element contains, as its name suggests, the most important content of the page, the one that defines the purpose of the page.
+
+\n\nWhile all webpages of a website contain common elements (like the header, the navigation, the footer…), the main element focuses on unique content.
+    </string>
+
+
+    <!--Course content for CSS-->
+    <string name="css_basics_1">CSS is just like painting.
+        \nIt involve styling your webpage, adding colors, margins, positions of a webpage’s elements.
+        \nHTML is like a girl’s face  while CSS is the face Make up
+
+        \n\n<b>Why CSS exists:</b>
+        \nSeparating content and styling
+        \nAs the Web grew in popularity in the 90s, the intent to apply a specific design to a website grew as well.
+        \nWeb developers relied upon specific HTML tags to enhance webpages:
+
+        \n\n<b>&lt;basefont&gt;</b> defined a font for a whole HTML document
+        \n<b>&lt;font&gt;</b> defined a typeface, a color, and a size for the text it contains
+        \n<b>&lt;center&gt;</b> horizontally centered all its content
+        \n<b>&lt;big&gt;</b> increased the size of the text
+        \n<b>&lt;strike&gt;</b> rendered text with a strike-through
+        \n\nSeveral HTML attributes could also be used:
+
+        \n<b>bgcolor</b> defined a background color on the element
+        \n<b>text</b> defined the text color
+        \nSeveral <b>margin</b> attributes could be used to add space on any side of the element
+
+        \n\n<b>What CSS IS?</b>
+        \nCSS stands for Cascading Style Sheets.
+        \nIts purpose is to style markup languages (like HTML or XML).
+        \nTherefore, CSS is worthless on its own, unless associated with an HTML document.
+
+        \n<b>How CSS works:</b>
+        \nHow CSS works is by selecting an HTML element (like a paragraph), choosing a property to alter (like the color), and applying a certain value (like red):\n
+    </string>
+    <string name="css_basics_2">\nThe word “Style” can be deceiving. You might think CSS is only used to change the text’s color, size, and font.
+        \nBut CSS is able to define an HTML document’s layout, by defining heights, widths, inner and outer margins, positions and columns.
+        \n\n<b>Where do I write CSS?</b>
+        \nCSS as an attribute:
+        \nYou can write CSS directly on an HTML elements, by using the style attribute:
+    </string>
+    <string name="css_basics_3">\nCSS in the &lt;head&gt;
+        \nYou can use a <b>&lt;style&gt;</b> tag in the <b>&lt;head&gt;</b> of your HTML document:
+    </string>
+    <string name="css_basics_4">\nCSS in a separate file
+        \nYou can write your CSS in a separate file with a .css extension, and then link it to your HTML by using the &lt;link&gt; HTML tag.
+    </string>
+    <string name="css_basics_5">\nIt is the HTML document who “calls” the CSS file, in this case a file called style.css located in the same folder as the HTML file.
+        \nThis 3rd method of using a separate CSS file is preferred.
+        \nWhy not style directly in the HTML?
+        \nBecause we want to separate the content (HTML) from its presentation (CSS).
+        \nIt makes maintenance easier as well: the same CSS file can be used for a whole website.
+        \nIt provides flexibility: focus on the content on one side, the styling on the other. SEO purposes, different concerns.
+    </string>
+
+    <!--CSS Syntax-->
+    <string name="css_syntax_1">
+        \nLayout and styling is done with CSS on your HTML elements:
+        \nIt has a very simple syntax:
+
+        \n/* A CSS rule */
+        \nThis whole block (selector/property/value) is a CSS rule.
+        \nthe selector defines who is targeted, which HTML element(s)
+        \nthe property defines what characteristic to alter
+        \nthe value defines how to alter that characteristic
+
+        \nselector{ property: value;}
+        \nit can be read  as:
+
+        \nwho{ what: how;}
+
+        \n<b>Quick example:</b>
+        \nLet’s say you want to change the color of all your blockquotes.
+    </string>
+    <string name="css_syntax_2">
+        \n\nFocus on the tag name (and forget about the angle brackets &lt;&gt; and the text).
+        \nIn our case, all that remains is “blockquote”. There’s a direct relation between the tag name and the selector.
+        \nLet’s use that in our CSS as a selector, and let’s apply some styling:
+    </string>
+    <string name="css_syntax_3">
+        \n\nInteresting. But now, the text color doesn’t really match the background color.
+        \nLet’s improve that:
+    </string>
+    <string name="css_syntax_4">
+        \nSo 2 things happened:
+        \nWe added a second property/value pair, while keeping only one selector: you can set as many properties as you want for any set of selectors
+        \nwe put each property/value pair on its own line: like in HTML, the whitespace isn’t important.
+        \nIt’s the special characters {} : and ; that matter. As a result, you can format your CSS as you wish, to make it more readable, as long as its syntax remains valid.
+        \nThe &lt;blockquote&gt; HTML tag is a block element. It has an inline counterpart: &lt;q&gt;.
+        \nAs they both serve the same purpose (but in different contexts), we’d like to style them identically.
+        \nWe could copy-paste the CSS rule and just change the selector, but there is as you would have guessed, a quicker way:
+
+    </string>
+    <string name="css_syntax_5">
+        \nNow we have 2 selectors and 2 properties.
+        \nWe consequently have a set of selectors and a set of properties (with their respective values).
+        \nWe can have multiple selectors, multiple properties, and sometimes (but rarely) multiple values.
+        \n\n<b>Comments:</b>
+        \nAs in HTML, it can be handy to write CSS comments:
+        \nComments are visible to human, unread by the browser
+    </string>
+
+    <!--CSS Selectors-->
+    <string name="css_selector_1">
+        \nHow to target HTML elements
+        \nCSS selectors define which elements we want our styling to be applied to.
+        \n\n<b>Generic tag selectors:</b>
+        \nTargeting generic HTML tags is easy: just use the tag name.
+        \nA direct connection exist between name of the HTML tag and the CSS selector applied\n
+
+        </string>
+    <string name="css_selector_2">
+        <b>Classes:</b>
+        \nConsidering we probably don’t want to style all paragraphs or all titles identically, we need to differentiate them.
+        \nOf all HTML attributes, the <b>class</b> attribute is the most important for CSS.
+        \nIt allows us to define a group of HTML elements that we can target specifically.
+        \nJust put a dot . in front of the class name you want to use:
+    </string>
+    <string name="css_selector_3">
+        \nOn one side, there is the HTML class attribute with the value date. It must match the name of the CSS class.
+        \nYou can use any name for your CSS class, as long as it doesn’t start with a number.
+        \nThe .date class selector will target all HTML elements that have the class="date" attribute.
+        \nSo, the following HTML elements will all be styled:
+    </string>
+    <string name="css_selector_4">
+        \n<b>IDs:</b>
+        \nYou can also use the id attribute in your HTML, and target it with a hash # in your CSS:
+        \n\n<b>HTML:</b>
+    </string>
+    <string name="css_selector_5">
+        \n<b>Combining selectors</b>
+        \nLet’s reuse our previous example where we want our dates to be red:
+        \nWhat if we want our dates that are in em elements to blue instead?
+        \nWe can add the following CSS rule:\n
+    </string>
+    <string name="css_selector_6">
+        \nThe em.date combines:
+
+        \na tag selector em
+        \na class selector .date
+        \nIt will only apply to <em class="date"></em> HTML elements. It won’t affect other .date or em.
+        \n<b>Hierarchy selectors</b>
+
+        A space in a selector defines a ancestor/descendant relationship.
+        Let’s say we want the links in our header to be in red:
+
+    </string>
+    <string name="css_selector_7">
+        \nThis can be read from right to left as: “Select all a elements that are within a header element”.
+        \nThis will prevent all other links (that aren’t in the header) from being affected.
+
+        \n\n<b>Pseudo-class selectors</b>
+        \nHTML elements can have different states. The most common case is when you hover over a link.
+        \nIt’s possible in CSS to apply a different style when such an event occurs.
+
+        \nPseudo-class selectors are attached to usual selectors and start with a colon ::\n
+    </string>
+
+
+    <string name="css_inheritance_1">
+        Using the HTML hierarchy
+        \nLet’s say we want to change the text color of a webpage. It would be tedious to specify a color for every HTML element:
+        \n<b>Value propagation:</b>
+        \nThe color value can be inherited from an ancestor.
+        \nConsidering we want to alter the whole webpage, we will choose the ancestor of all HTML elements, the body tag:
+
+    </string>
+    <string name="css_inheritance_2">
+        \nAll child and descendant elements will inherit the value grey from their common ancestor body, which naturally encompasses all elements.
+        \nWe could also use the html tag.
+
+        \n\n<b>Inherited properties:</b>
+        \nOnly a few CSS properties can be inherited from ancestors.
+        \nThey are mainly text properties:
+        \ntext color
+        \nfont (family, size, style, weight)
+        \nline-height
+        \nSome HTML elements don’t inherit from their ancestors. Links for example don’t inherit the color property.
+    </string>
+
+    <string name="css_priority_1">
+        \nWhen several rules collide
+        \nAn HTML element can be targeted by multiple CSS rules.
+        \nLet’s use a simple paragraph for example:
+    </string>
+    <string name="css_priority_2">
+        \nWe can alter this paragraph just by using its tag name:
+    </string>
+    <string name="css_priority_3">
+        \nOr we can use its class name:
+    </string>
+    <string name="css_priority_4">
+        \nOr we can use its id:
+    </string>
+    <string name="css_priority_5">
+        \n\nBecause the browser can only pick one color to apply on this paragraph, it will have to decide which CSS rule takes priority over other ones.
+        \nThis is what CSS priority (or CSS specificity is about).
+        \nIn our example, the paragraph will be red because a #id selector is more specific and thus more important than other selectors.
+
+        \n\n<b>Order of CSS rules:</b>
+        \nIf similar selectors are in your CSS, the last one defined will take priority.
+    </string>
+    <string name="css_priority_6">
+        \nThe 100 measure
+        \nOne quick way to figure out how “powerful” a CSS rule is, is by measuring the specificity of the selectors:
+        \n\n<b>#id</b> selectors are worth 100
+        \n<b>.class</b> selectors are worth 10
+        \n<b>tag</b> selectors are worth 1
+        \nThe selector with the highest “score” will prevail, no matter the order in which the CSS rules appear.
+    </string>
+    <string name="css_priority_7">
+        \nThe #introduction{ color: red;} rule is more specific than the others because ids must be unique throughout a webpage, and can thus only target one element.
+
+        \n.message{ color: green;} can target any HTML element with a class="message" attribute, and is consequently less specific. Same goes for p{ color: blue;} which can target any HTML paragraph.
+
+        \n<b>How to avoid conflicts:</b>
+        \nWhile writing your CSS, it’s easy to write conflicting rules, where the same property is applied several times.
+
+        \n\nTo avoid that:
+
+        \nOnly use classes: use .introduction instead of #introduction, even if that element only appears once in your webpage
+        \navoid applying multiple classes on a single HTML element: don’t write
+        \n&lt;p class=&quot;big red important&quot;&gt;
+        \nbut rather &lt;p class=&quot;title&quot;&gt; which is more semantically descriptive
+        \ndon’t use inline styles like &lt;div style=&quot;background: blue;&quot;&gt;
+
+    </string>
+
+
+    <string name="css_color_1">Different ways to define colors
+        \nColors are widely used in CSS, whether for text color, background color, gradients, shadows, borders,e.t.c
+        \nThere are several ways to define colors in CSS, each with their own pros and cons.
+
+        \nThe color property defines the color of the text.
+        \nIt is pretty straightforward. What is more important is the different types of color units available.
+
+        \n\n<b>Color names</b>
+        \nCSS provides 145 colors names, from the most basic (black, white, orange, yellow, blue…) to the more specific (lawngreen, orchid, crimson…).
+    </string>
+    <string name="css_color_2">
+        \nBecause the color names are hard to remember, and because you probably want very specific colors, color names are not often used.
+    </string>
+
+    <string name="css_size_1">Sizing for content and space
+        \nThere are many CSS properties that require size units:
+
+        \n<b>font-size</b> defines the size of the text
+        \n<b>border-width</b> defines the weight of element borders
+        \n<b>margin</b> defines the spacing between elements
+        \n<b>left/right/top/bottom</b> allows to position and move elements
+        \n\nThe most used units are:
+
+        \npx for pixels
+        \n% for percentage
+        \nem for sizing relative to the parent’s font-size value.
+
+        \n\n<b>Pixels:</b>
+        \nBecause computer screens use pixels to display the content, it is the most common size unit in CSS.
+
+        \nIt can be used to fix the width of an or set font size element:
+    </string>
+    <string name="css_size_2">
+        Pixels in CSS are straightforward because they define absolute values: they are not affected by other inherited CSS properties.
+
+        \nThey are also widely used for positioning and spacing purposes.
+
+        \n\n<b>Percentages:</b>
+        \nPercentages are relative units: they rely upon the element’s parent and/or ancestor.
+
+        \nFor example, block-level elements like paragraphs naturally take up the whole width available.
+        \nThe following CSS rule will resize them to half of the width available.
+
+    </string>
+    <string name="css_size_3">
+        \nPercentages can help set other CSS properties, like text size:
+    </string>
+    <string name="css_size_4">
+        \n\n<b>Em:</b>
+        \nem is a relative unit: it depends upon the value of the element’s font-size.
+        \nFor example, if the parent has a font-size of 20px and you apply font-size: 0.8em to a child element, this child element will render a font-size of 16px.
+        \n\nDon’t confuse the em CSS size unit and the em CSS selector, which targets <b>&lt;em&gt;</b> HTML elements
+        \nThe em unit is interesting as you define font sizes of HTML elements relative to one another.
+        \nTo design a pleasing and easy to read webpage, you need consistent visual depth.
+        \nFor example, you want your &lt;h1&gt; to be twice as big as your body text, your &lt;h2&gt; only 1.5 times as big, and your sidebar slightly smaller.
+        \nThis could easily be achieved in CSS:
+    </string>
+    <string name="css_size_5">
+        \nIf you decide to change the size of your body text, the relative sizes of your headings and sidebar will change accordingly, and your webpage will remain visually balanced.
+        \nBy just changing one value, all other values are altered:
+    </string>
+    <string name="css_size_6">
+        \n<b>Rem</b>
+        \nThe rem unit is similar to em, but instead of depending upon the parent’s value, it relies upon the root element’s value, which is the &lt;html&gt; element.
+
+    </string>
+    <string name="css_size_7">
+        \nThe difference between rem and em is that rem values are fixed while em values can multiply between each other.
+
+        \nIf you set your html{ font-size: 18px;}:
+
+        \n2rem will always be equal to 36px, no matter where you use in your CSS
+        \n2em will always be equal to double the parent’s font-size, so not necessarily 36px
+        \nQuick example where 2em is different from 2rem:
+    </string>
+    <string name="css_size_8">
+        \nThe span rely upon the p font-size value while the strong rely upon the html font-size value.
+
+        \n<b>Which unit to use?</b>
+        \nI’d recommend pixels to start with: as they’re absolute values, they aren’t affected by the element’s context. They are straightforward, allow to set the text size, image dimensions, border width, position coordinates…
+
+        \nPercentage and em values can be used alongside pixels, for relative text sizes especially.
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

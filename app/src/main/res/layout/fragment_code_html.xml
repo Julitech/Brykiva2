@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.julitech.brykiva.fragments.CodeHtmlFragment">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textMultiLine"
+        android:gravity="start"
+        android:id="@+id/htmlCodeEdittext"
+        android:textSize="15sp"
+        android:text="@string/test_code" />
+
+</FrameLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        app:cardCornerRadius="23dp">
+
+        <ImageView
+            android:id="@+id/user_img"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:src="@drawable/user" />
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/question_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="What is the best editor for html and css?"
+            android:textColor="#616161"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/answers_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_comment_black_18dp"
+                android:drawablePadding="5dp"
+                android:drawableTint="#1eaf0b"
+                android:text="0"
+                android:textColor="#1eaf0b" />
+
+            <TextView
+                android:id="@+id/question_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:drawableLeft="@drawable/ic_access_time_black_18dp"
+                android:drawablePadding="5dp"
+                android:text="3 hrs" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

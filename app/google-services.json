@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1015443427497",
+    "firebase_url": "https://kivalearn.firebaseio.com",
+    "project_id": "kivalearn",
+    "storage_bucket": "kivalearn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015443427497:android:c90c7e76597d24f6",
+        "android_client_info": {
+          "package_name": "com.julitech.brykiva"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015443427497-40jjjb00bvno9kfhb4nj3gkppjb0e74p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD012ggN8NAAsZZ3OBBL2gImyzll9krxpM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"
+        android:id="@+id/mHome"/>
+    <item
+        android:icon="@drawable/ic_school_black_24dp"
+        android:id="@+id/mLearn"
+        android:title="Learn"/>
+    <item
+        android:icon="@drawable/ic_code_black_24dp"
+        android:id="@+id/mCode"
+        android:title="Code"/>
+    <item
+        android:icon="@drawable/ic_question_answer_black_24dp"
+        android:id="@+id/mQuestions"
+        android:title="Q&amp;A"/>
+    <item
+        android:icon="@drawable/ic_lightbulb_outline_black_36dp"
+        android:id="@+id/mCompete"
+        android:title="Compete"/>
+</menu>
